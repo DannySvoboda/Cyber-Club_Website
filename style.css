@@ -3,7 +3,9 @@ html {
   width: 100%;
   background-color: mediumpurple;
 }
-
+.Login{
+  background-color: black;
+}
 
 .Title{
   line-height: 300%;
@@ -122,4 +124,10 @@ html {
   font-family: monospace;
   color: white;
   background-color: black;
+}
+
+.secretbutton{
+  font-size: 100%;
+  color: white;
+  display: none;
 }
