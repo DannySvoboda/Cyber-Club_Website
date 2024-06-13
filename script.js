@@ -27,7 +27,7 @@ function checkCode() {
 
 /*WORD GAME CODE*/
 
-const word_array = ["trunk", "grand", "blink", "black", "catch", "crust", "drama", "eagle", "fairy", "gifts", "great", "grand", "happy", "jungle", "lemon", "mango", "names", "prank", "quest", "range", "spire", "trade", "waste", "yeast", "zebra"]
+const word_array = ["trunk", "grand", "blink", "black", "catch", "crust", "drama", "eagle", "fairy", "gifts", "great", "grand", "happy", "lemon", "mango", "names", "prank", "quest", "range", "spire", "trade", "waste", "yeast", "zebra"]
 
 var current_word = ""
 
