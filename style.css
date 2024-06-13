@@ -148,6 +148,7 @@ html {
 .WordGame input{
   font-size: 200%;
   text-align: center;
+  width:25%
 }
 
 .WordGame a{

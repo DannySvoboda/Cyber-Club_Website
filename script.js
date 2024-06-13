@@ -61,7 +61,7 @@ function reassemble(l_list){
 }
 
 function check_answer(scrambled_word){
-  if (document.getElementById("Answer").value == current_word){
+  if (document.getElementById("Answer").value.toLowerCase() == current_word){
     console.log("You Passed!")
     document.getElementById("passfail").textContent = "You Passed!"
   }else{
