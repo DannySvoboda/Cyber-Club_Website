@@ -9,7 +9,7 @@
     <script src="../script.js"></script>
   </head>
 
-  <body>
+  <body onload="select_word()">
   <!DROPDOWN MENU>
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -23,18 +23,25 @@
   <!CONTENT>
     <div id="main">
       <span style="color:white;font-size:50px;cursor:pointer" onclick="openNav()";>&#9776; Menu </span>
-      <h1 class="Title">Cyber-News</h1>
+      <h1 class="Title">Browser Games - Dan</h1>
 
-      <h2 class="SubTitle">This is a newsletter of the biggest weekly news in Cybersecurity and Technology! It will begin with the 2024-2025 school year!</h2>
+      <h2 class="SubTitle">A showcase of some light javascript browser games! </h2>
 
-      <div class="NewsEntry">
-        <center>
-          <h1>This is an example entry while this subpage is being developed.</h1>
-          <img class="Img" src = "../Assets/ComputerScienceStockImage(FOR_TESTING).jpg">
-        </center>
+      <div class = "WordGame">
+        <h1>Unscramble the Word!</h1>
+        <div class = "Question">
+          <label id = "S_word"></label>
+          <input autocomplete = "off" type = "text" id = "Answer">
+          <input type = "button" value = "Unscramble" onclick = "check_answer()">
+        </div>
+        <br>
+        <h1 id=passfail></h1>
+        <br>
+        <a href ="" >Wanna Try Again?</a>
       </div>
+
     </div>
-    
+
     <p class="Devtag">Developed by Daniel Svoboda, Class of 2025</p>
 
   </body>
